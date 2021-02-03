@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+  <configuration>
+      <typeAliases>
+          <!-- <package name="com.ssm.ssmcrud.pojo" /> -->
+          <!-- <typeAlias type="com.ssm.ssmcrud.pojo.Books" alias="Books"/> -->
+      </typeAliases>
+
+      <!-- <mappers>
+          <mapper resource="mybatis/mapper/Book.xml"/>
+      </mappers> -->
+  </configuration>
