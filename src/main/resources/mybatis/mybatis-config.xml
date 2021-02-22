@@ -5,11 +5,11 @@
 
   <configuration>
       <typeAliases>
-          <!-- <package name="com.ssm.ssmcrud.pojo" /> -->
+          <package name="com.ssm.ssmcrud.pojo" />
           <!-- <typeAlias type="com.ssm.ssmcrud.pojo.Books" alias="Books"/> -->
       </typeAliases>
 
       <!-- <mappers>
-          <mapper resource="mybatis/mapper/Book.xml"/>
+          <mapper resource="mybatis/mapper/BookMapper.xml"/>
       </mappers> -->
   </configuration>

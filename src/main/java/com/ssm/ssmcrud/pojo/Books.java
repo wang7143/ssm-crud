@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author:123
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,3 +16,4 @@ public class Books {
     private int bookCounts;
     private String detail;
 }
+

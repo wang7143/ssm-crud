@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书籍展示</title>
+</head>
+<body>
+    <h1>书籍展示</h1>
+    <tr th:each="prod : ${list}">
+        <td th:text="${prod.booID}"></td>
+        <td th:text="${prod.bookName}"></td>
+        <td th:text="${prod.bookCounts}"></td>
+        <td th:text="${prod.detail}"></td>
+    </tr>
+    <br/>
+</body>
+</html>
